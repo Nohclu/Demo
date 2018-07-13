@@ -13,6 +13,6 @@
 ![alt text](images/DbAfterReg3.png "Users model in Sqlite")
 <br>
 <p>All Routes defined in AuthController.<br> AuthController inherits from IAuthRepository which is the Interface for AuthRepository here we have all of our authentication methods</p>
-1. Register
+1. Register <br>
 2. Login <br>
 <p>and other helper methods.</p>
