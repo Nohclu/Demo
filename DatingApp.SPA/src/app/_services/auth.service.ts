@@ -21,4 +21,10 @@ login(model: any) {
     });
 }
 
+logout() {
+    this.authService.userToken = null;
+    localStorage.removeItem('token');
+    console.log('logged out');
+}
+
 }
